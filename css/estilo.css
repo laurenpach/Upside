@@ -1,0 +1,298 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+img {max-width: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2 {font-size: 1.5em;}
+p {font-size: 1em;}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  width: 100%;
+  float: left;
+  padding: 20px 2%;
+  background-color: rgb(0, 0, 0);
+}
+.logo img {
+  width: 180px;
+  height: 45px;
+  float: left;
+}
+
+.cabecalho form {
+  width: 30%;
+  float: right;
+}
+.cabecalho input[type="text"] {
+  width: 85%;
+  float: left;
+  padding: 5px 10px;
+  background-color: rgb(165, 165, 165);
+  color: #fff;
+  border-radius: 15px 0px 0px 15px;
+}
+.cabecalho button {
+  width: 15%;
+  float: right;
+  padding: 5px 10px; 
+  background-color: rgb(165, 165, 165);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* MENU*/
+.menu {
+  width: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 10px 2% ;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  text-align: center;
+  color: #fff;
+  margin-left: 12px;
+}
+.menu li a:hover {
+  color: black;
+}
+
+/* LOGIN E CARRINHO */
+
+.menu-lateral {float: right;
+  text-align: center;
+}
+.menu-lateral a {
+  color: #fff;
+  float: left;
+  margin-left: 12px;
+}
+
+.carrinho {
+  margin-right: 20px;
+}
+
+.login {
+  font-size: 80%;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+
+
+/* MAIN */
+
+.main {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20% 30%;
+  text-align: center;
+  background-image: url(../imagens/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ } 
+
+.main h2 {
+  color: black;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.main p {
+  color: black;
+  font-size: 1.5vw;
+}
+
+.main input[type="email"]{
+  width: 85%;
+  float: left;
+  padding: 5px 10px;
+  background-color: rgb(197, 197, 197);
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.main button {
+  width: 30%;
+  float: left;
+  padding: 5px 10px;
+  background-color: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* PRODUTOS */
+
+.produtos {
+  width: 100%;
+  height: 30%;
+  display: inline-block;
+  padding: 30px 10%;
+  margin-bottom: 50px;
+}
+
+.produtos div h2{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bolder
+
+}
+
+.div-produto {
+  width: 320px;
+  height: 510px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  background-color: rgb(29, 29, 29);
+}
+
+.div-produto img{
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+
+}
+
+.descricao {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+
+.mais-produtos {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.mais-produtos a {
+  color: white;
+  font-weight: bold;
+}
+
+/* VÍDEO INSTITUCIONAL */
+
+.div-instucional {
+  width: 100%;
+  height: 40%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-instucional div h2{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bolder
+
+}
+
+.div-video {
+  width: 580px;
+  height: 335px;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: rgb(29, 29, 29);
+}
+
+/* DEPOIMENTOS */
+
+.div-depoimentos {
+  background-color: rgb(0, 0, 0, 0.61);
+  width: 100%;
+  height: 30%;
+  padding: 50px 50px;
+  display: inline-block;
+}
+
+.div-depoimentos div h2{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+.depoimento-box {
+  display: inline-block;
+  width: 45%;
+  margin-left: 45px;
+  text-align: center;
+
+}
+
+.depoimento-msg {
+  background-color: #fff ;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 35px auto;
+  font-style: italic;
+}
+
+/* ENDEREÇO */
+
+.div-enderecos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.div-enderecos h2 {
+  color: white;
+  text-align: center;
+}
+
+/* REDES SOCIAIS */
+
+.redes-sociais {
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  padding: 0px 44.5%;
+}
+
+.redes-sociais i {
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+}
