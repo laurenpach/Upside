@@ -1,0 +1,66 @@
+<html>
+
+    <head>
+
+        <meta charset="uft-8">
+
+        <link rel="stylesheet" href="../CSS/Cadastro.css">
+        <link rel='stylesheet' href='../CSS/estilo.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c32fbe7f54.js" crossorigin="anonymous"></script>
+
+        <script src="../js/cadastro.js"></script>
+
+
+    </head>
+
+    <body>
+
+      <header class="cabecalho">
+        <div class="logo"> 
+          <a href="../index.html" title="UpSide">
+            <img src="../imagens/logoUpSide.png">
+          </a>
+        </div>
+        <form>
+          <input type="text" placeholder="pesquisar"/>
+          <button> <i class="fas fa-search"></i> </button>
+        </form>
+    </header>
+
+<!-- navegação -->         
+    
+    <nav class="menu">
+      <ul>
+        <li> <a href="../index.html"> Home </a> </li> 
+        <li> <a href="../paginas/"> Produtos </a></li>
+        <li> <a href="../index.html/#contato"> Contato </a></li>
+      </ul>
+      <div class="menu-lateral">
+        <a href="#" class="carrinho"><i class="fas fa-shopping-cart fa-lg"></i></a>
+          <div class="login"> 
+              <a href="../paginas/Login.html" > Faça <i>login</i> </a> <br>
+                <a href="../paginas/Cadastro.html" > ou <i>cadastre-se</i> </a> 
+          </div>
+      </div>  
+  </nav>
+
+        <div class="main_box">
+            <div class="box">
+                <div class="titulo">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="form">
+                    <input class="int" type="text" placeholder="Nome" id="nome" size="25" />
+                    <input class="int" type="text" placeholder="Sobrenome" id="sobrenome" size="25" />
+                    <input class="int" type="text" placeholder="E-mail" id="email" size="25" />
+                    <input class="int" type="text" placeholder="DDD+Telefone" id="telefone" size="25" />
+                    <input class="int" type="password" placeholder="Senha" id="senha" size="25" />
+                </div> 
+                <button class="btn" onclick="validar()">Cadastrar</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>

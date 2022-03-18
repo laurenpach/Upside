@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+
+        <meta charset="uft-8">
+
+        <link rel="stylesheet" href="../CSS/Login.css">
+        <link rel='stylesheet' href='../css/estilo.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c32fbe7f54.js" crossorigin="anonymous"></script>
+
+        <script src="../js/login.js"></script>
+
+    </head>
+
+    <body>
+
+        <header class="cabecalho">
+            <div class="logo"> 
+              <a href="../index.html" title="UpSide">
+                <img src="../Imagens/logoUpSide.png">
+              </a>
+            </div>
+            <form>
+              <input type="text" placeholder="pesquisar"/>
+              <button> <i class="fas fa-search"></i> </button>
+            </form>
+        </header>
+
+        <nav class="menu">
+            <ul>
+              <li> <a href="#"> Home </a> </li> 
+              <li> <a href="#"> Produtos </a></li>
+              <li> <a href="#"> Contato </a></li>
+            </ul>
+            <div class="menu-lateral">
+              <a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a>
+              <a href="Login.html" class="login"> Faça <i>login</i> </a> <br>
+              <a href="Cadastro.html" class="login"> ou <i>cadastre-se</i> </a> 
+            </div>  
+        </nav>
+
+        <div class="main_box">
+            <div class="box">
+                <div class="titulo">
+                    <h1>Login</h1> 
+                </div>
+                <div class="form">
+                    <input class="int" type="text" placeholder="E-mail" id="email" />
+                    <input class="int" type="password" placeholder="Senha" id="senha" />
+                </div> 
+                <button class="btn" onclick="acesso()">Acessar</button>
+                <button class="btn" onclick="cadastro()">Cadastre-se</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>
